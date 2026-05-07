@@ -54,7 +54,7 @@ For developers and admins, the backend of the system is managed through the **Ob
 
 ![Object Manager View](pic3.png)
 
-# Week 1: Salesforce Fundamentals
+# Day 1: Salesforce Fundamentals
 
 ## 1. What problem does Salesforce solve?
 Imagine a business where the sales team uses sticky notes, the marketing team uses spreadsheets, and the support team uses a different app entirely. Nobody knows what the other is doing, and the customer has to repeat their story every time they call.
