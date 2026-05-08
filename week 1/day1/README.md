@@ -60,16 +60,16 @@ For developers and admins, the backend of the system is managed through the **Ob
 
 ![Object Manager View](pic3.png)
 
-## 8. Real-World Mapping: Campus Gadget Rental
-To visualize how these objects function in a real-world scenario like my **Campus Gadget Rental** project:
+## 8. Real-World Mapping: Hospital Management System
+To visualize how these objects function in a real-world healthcare scenario:
 
-| Salesforce Object | Project Entity | Description |
+| Salesforce Object | Hospital Entity | Description |
 | :--- | :--- | :--- |
-| **Account** | University Department | The organization owning or renting the gear (e.g., CSE Dept). |
-| **Contact** | Student / Faculty | The specific individual renting the gadget. |
-| **Lead** | Rental Inquiry | A student asking about camera availability via a web form. |
-| **Opportunity** | Active Rental | A confirmed rental deal where the gadget is currently checked out. |
-| **Custom Object** | Gadget Inventory | A specific table to track serial numbers, models, and condition. |
+| **Account** | Insurance Provider | The organization or company providing health coverage (e.g., Star Health, BlueCross). |
+| **Contact** | Patient | The individual receiving medical care and treatment. |
+| **Lead** | Appointment Inquiry | A person asking about a specialist or surgery via a web form or phone call. |
+| **Opportunity** | Treatment Procedure | A specific medical case or surgery (e.g., Knee Replacement) in the pipeline. |
+| **Custom Object** | Medical Records | A specific table to track patient history, lab results, and prescriptions. |
 
 
 # Day 1: Salesforce Fundamentals
