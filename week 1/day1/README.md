@@ -1,12 +1,12 @@
 # Day 1: Salesforce CRM Basics
-## 2. Why Companies Use Salesforce
+## 1. Why Companies Use Salesforce
 Salesforce is the global leader in CRM because it offers more than just a database; it offers a complete ecosystem:
 *   **Cloud-First Infrastructure:** No hardware or software installation is required.
 *   **Scalability:** It works for small startups and global enterprises alike.
 *   **Low-Code Innovation:** Tools like **Flow Builder** allow admins to automate complex business processes without writing code.
 *   **Integrated AI:** With **Agentforce**, companies can deploy autonomous AI agents to handle customer inquiries instantly.
 
-## 1. What is CRM?
+## 2. What is CRM?
 **CRM (Customer Relationship Management)** is a centralized platform used to manage all company-customer interactions. It replaces fragmented tools like spreadsheets and personal inboxes with a single **"Customer 360"** view, ensuring every department sees the same real-time data.
 
 * **The Goal:** To reduce technical complexity, lower IT costs (by up to 25%), and increase employee productivity.
@@ -16,7 +16,7 @@ Salesforce is the global leader in CRM because it offers more than just a databa
 
 ---
 
-## 2. Platform Interface & Navigation
+## 3. Platform Interface & Navigation
 The Lightning Experience interface is designed for high productivity and quick access to data:
 
 * **Home:** A customizable dashboard showing daily tasks, performance charts, and recent records.
@@ -26,7 +26,7 @@ The Lightning Experience interface is designed for high productivity and quick a
 
 ---
 
-## 3. Core Objects (The Building Blocks)
+## 4. Core Objects (The Building Blocks)
 Salesforce data is structured into **Objects**, which represent real-world business entities:
 
 * **Leads:** Unqualified potential customers (the "dumping ground" for new inquiries).
@@ -37,7 +37,7 @@ Salesforce data is structured into **Objects**, which represent real-world busin
 
 ---
 
-## 4. The Sales Lifecycle: Lead to Opportunity
+## 5. The Sales Lifecycle: Lead to Opportunity
 A core function of the CRM is moving interest through a defined pipeline.
 
 1. **Nurturing:** Tracking interactions with a Lead to see if they meet business criteria (Budget, Authority, Need, and Timing).
@@ -48,19 +48,19 @@ A core function of the CRM is moving interest through a defined pipeline.
 
 ---
 
-## 5. Automation & Pipeline Management
+## 6. Automation & Pipeline Management
 * **Kanban View:** A visual board to track deal progression through stages. It allows users to drag-and-drop deals to update their status instantly.
 * **Flow Builder:** An automation tool used to create workflows (e.g., sending an automatic email when a Lead is created) without writing code.
 * **Dashboards:** Visual charts and graphs that help leaders make data-driven decisions based on real-time reports.
 
 ---
 
-## 6. Technical Configuration
+## 7. Technical Configuration
 For developers and admins, the backend of the system is managed through the **Object Manager**. This is where you define the data architecture, create custom fields, and manage how data relates across the entire organization.
 
 ![Object Manager View](pic3.png)
 
-## 4. Real-World Mapping: Campus Gadget Rental
+## 8. Real-World Mapping: Campus Gadget Rental
 To visualize how these objects function in a real-world scenario like my **Campus Gadget Rental** project:
 
 | Salesforce Object | Project Entity | Description |
