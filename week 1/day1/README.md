@@ -1,4 +1,10 @@
 # Day 1: Salesforce CRM Basics
+## 2. Why Companies Use Salesforce
+Salesforce is the global leader in CRM because it offers more than just a database; it offers a complete ecosystem:
+*   **Cloud-First Infrastructure:** No hardware or software installation is required.
+*   **Scalability:** It works for small startups and global enterprises alike.
+*   **Low-Code Innovation:** Tools like **Flow Builder** allow admins to automate complex business processes without writing code.
+*   **Integrated AI:** With **Agentforce**, companies can deploy autonomous AI agents to handle customer inquiries instantly.
 
 ## 1. What is CRM?
 **CRM (Customer Relationship Management)** is a centralized platform used to manage all company-customer interactions. It replaces fragmented tools like spreadsheets and personal inboxes with a single **"Customer 360"** view, ensuring every department sees the same real-time data.
@@ -53,6 +59,18 @@ A core function of the CRM is moving interest through a defined pipeline.
 For developers and admins, the backend of the system is managed through the **Object Manager**. This is where you define the data architecture, create custom fields, and manage how data relates across the entire organization.
 
 ![Object Manager View](pic3.png)
+
+## 4. Real-World Mapping: Campus Gadget Rental
+To visualize how these objects function in a real-world scenario like my **Campus Gadget Rental** project:
+
+| Salesforce Object | Project Entity | Description |
+| :--- | :--- | :--- |
+| **Account** | University Department | The organization owning or renting the gear (e.g., CSE Dept). |
+| **Contact** | Student / Faculty | The specific individual renting the gadget. |
+| **Lead** | Rental Inquiry | A student asking about camera availability via a web form. |
+| **Opportunity** | Active Rental | A confirmed rental deal where the gadget is currently checked out. |
+| **Custom Object** | Gadget Inventory | A specific table to track serial numbers, models, and condition. |
+
 
 # Day 1: Salesforce Fundamentals
 
