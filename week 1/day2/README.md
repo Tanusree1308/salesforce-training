@@ -1,1 +1,48 @@
-Day 2: Platform Basics1. What is the Salesforce Platform?Salesforce Platform is a cloud-based platform that lets businesses build applications, manage customer data, and automate processes—all in one place.2. Core Concepts ExplainedAppImagine an App as a dedicated workspace or a folder for a specific job. It’s a collection of items (like tabs and dashboards) grouped together to help users complete a specific business process.Setting up the branding for a new Lightning App.ObjectIf Salesforce is a giant Excel workbook, an Object is a single spreadsheet tab within it. It’s a database table that stores a specific kind of information.Viewing the structure of the Contact Object.TabA Tab is the clickable shortcut at the top of your screen. It is the user interface element that lets you actually click into and view the data stored inside an Object.Configuring navigation tabs for the user interface.3. Configuration vs. CodingConfiguration (Clicks): This is like building with Lego blocks. You use Salesforce's drag-and-drop tools to build forms and automate rules without writing code.Choosing field types using the point-and-click interface.Coding (Code): When the standard point-and-click tools aren't enough, developers write actual code (like Apex or JavaScript) to make it happen.Using the Salesforce CLI within VS Code for custom development.4. Real System Thinking: College Admission SystemHere is how the "Admissions Hub" app is designed using standard and custom object mapping:High Schools (Account Object): The source institution.Students (Contact Object): The individual person applying.Applications (Opportunity Object): Tracking the student from "Applied" to "Enrolled."Mapping and importing external data into the platform.5. Development & VerificationWe use the Dreamhouse project to verify our environment setup and ensure data is flowing correctly.Successful authorization of the Salesforce Org.Confirming that data records are visible in the application.
+# Day 2: Platform Basics
+
+## 1. What is the Salesforce Platform?
+
+**Salesforce Platform** is a cloud-based platform that lets businesses build applications, manage customer data, and automate processes — all in one place.
+
+---
+
+## 2. Core Concepts Explained
+
+| Concept | Explanation | Example |
+|---|---|---|
+| **App** | Imagine an App as a dedicated workspace or a folder for a specific job. It’s a collection of items (like tabs and dashboards) grouped together to help users complete a specific business process. | Setting up the branding for a new Lightning App |
+| **Object** | If Salesforce is a giant Excel workbook, an Object is a single spreadsheet tab within it. It’s a database table that stores a specific kind of information. | Viewing the structure of the Contact Object |
+| **Tab** | A Tab is the clickable shortcut at the top of your screen. It is the user interface element that lets you actually click into and view the data stored inside an Object. | Configuring navigation tabs for the user interface |
+
+---
+
+## 3. Configuration vs. Coding
+
+| Type | Explanation | Example |
+|---|---|---|
+| **Configuration (Clicks)** | This is like building with Lego blocks. You use Salesforce's drag-and-drop tools to build forms and automate rules without writing code. | Choosing field types using the point-and-click interface |
+| **Coding (Code)** | When the standard point-and-click tools aren't enough, developers write actual code (like Apex or JavaScript) to make it happen. | Using the Salesforce CLI within VS Code for custom development |
+
+---
+
+## 4. Real System Thinking: College Admission System
+
+Here is how the **"Admissions Hub"** app is designed using standard and custom object mapping:
+
+| Salesforce Object | College Admission Mapping | Description |
+|---|---|---|
+| **Account Object** | High Schools | The source institution |
+| **Contact Object** | Students | The individual person applying |
+| **Opportunity Object** | Applications | Tracking the student from **"Applied"** to **"Enrolled"** |
+
+**Additional Task:**  
+- Mapping and importing external data into the platform.
+
+---
+
+## 5. Development & Verification
+
+We use the **Dreamhouse Project** to verify our environment setup and ensure data is flowing correctly.
+
+- **Successful authorization** of the Salesforce Org.
+- **Confirming that data records** are visible in the application.
