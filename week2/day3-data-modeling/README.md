@@ -62,10 +62,9 @@ This object contains Master-Detail relationships with both Student and Course ob
 ## **Data Model Diagrams**
 
 ### **Conceptual Data Model Diagram**
-![first image](Conceptual Data Model.png)
-
+![Conceptual Data Model](<Conceptual Data Model.png>)
 ### **Salesforce Schema Builder Execution**
-![secong image](Salesforce Schema Builder Screenshot.png)
+![Salesforce Schema Builder](Salesforce%20Schema%20Builder%20Execution.png)
 
 ---
 
