@@ -27,9 +27,6 @@ Examples:
 
 These objects already contain predefined functionality and relationships.
 
-### **Working with Standard Objects**
-![Contact Object Details](Screenshot%202026-05-09%20170442.png)
-
 ---
 
 ## **Custom Objects**
@@ -154,6 +151,3 @@ A structured system helps:
 - Enable efficient collaboration between departments
 
 Most importantly, reliable data allows organizations to confidently automate processes and make better business decisions.
-
-### **Final System Verification**
-![Org Authentication Success](Screenshot%202026-05-09%20194147.png)
