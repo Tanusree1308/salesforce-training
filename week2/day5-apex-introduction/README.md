@@ -128,18 +128,38 @@ By combining Apex with Salesforce automation tools, developers can create effici
 # **8. Sample Code**
 ## **Simple Apex Program**
 
+
 ```apex
-public class HelloWorld {
+public class StudentGradeCalculator {
 
-    public static void showMessage() {
+    public static void calculateGrade() {
 
-        System.debug('Hello Salesforce!');
+        Integer marks = 85;
+
+        if(marks >= 90) {
+            System.debug('Grade: A');
+        }
+        else if(marks >= 75) {
+            System.debug('Grade: B');
+        }
+        else if(marks >= 50) {
+            System.debug('Grade: C');
+        }
+        else {
+            System.debug('Grade: Fail');
+        }
     }
 }
 ```
 
 ### **Explanation**
-- `public class HelloWorld` creates a new Apex class.
-- `showMessage()` is a method inside the class.
-- `System.debug()` prints the message in the debug log.
-- This is one of the simplest examples used to understand Apex syntax and structure.
+- `Integer marks = 85;` stores the student's marks.
+- The `if-else` conditions check the marks range.
+- Depending on the marks, the program assigns a grade.
+- `System.debug()` displays the output in Salesforce debug logs.
+
+This example demonstrates:
+- Variables
+- Conditional statements
+- Methods
+- Basic Apex syntax
