@@ -125,7 +125,7 @@ While Salesforce provides many low-code tools, some business requirements need a
 
 By combining Apex with Salesforce automation tools, developers can create efficient, scalable, and secure cloud applications.
 
-#**8. Sample Code**
+# **8. Sample Code**
 ## **Simple Apex Program**
 
 ```apex
