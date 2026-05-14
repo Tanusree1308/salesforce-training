@@ -124,3 +124,22 @@ It helps developers build scalable and customized enterprise applications.
 While Salesforce provides many low-code tools, some business requirements need advanced customization. Apex allows developers to implement complex logic that cannot be achieved using only clicks and configuration.
 
 By combining Apex with Salesforce automation tools, developers can create efficient, scalable, and secure cloud applications.
+
+##**8. Sample Code**
+## **Simple Apex Program**
+
+```apex
+public class HelloWorld {
+
+    public static void showMessage() {
+
+        System.debug('Hello Salesforce!');
+    }
+}
+```
+
+### **Explanation**
+- `public class HelloWorld` creates a new Apex class.
+- `showMessage()` is a method inside the class.
+- `System.debug()` prints the message in the debug log.
+- This is one of the simplest examples used to understand Apex syntax and structure.
